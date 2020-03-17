@@ -3,7 +3,7 @@ module.exports = {
     context: __dirname,
 
     // path to the clientlib root folder (output)
-    clientLibRoot: "./../ui.apps/src/main/content/jcr_root/apps/StaffWeb/components/page/editable/htmlbase/clientlibs/react",
+    clientLibRoot: "./../ui.apps/src/main/content/jcr_root/apps/StaffWeb/components/page/editable/react-page/clientlibs",
 
     libs: {
         name: "staffweb-react-app",
