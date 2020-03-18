@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
+import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
 import './App.css';
 
-class App extends Component {
+class App extends Page {
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <h1>Welcome to AEM + React</h1>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
         </header>
+        { this.childComponents }
+        { this.childPages }
       </div>
     );
   }
 }
 
-export default App;
+export default withModel(App);
