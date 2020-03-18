@@ -11,7 +11,7 @@ module.exports = {
         categories: ["staffweb.react"],
         serializationFormat: "xml",
         jsProcessor: ["min:gcc"],
-        dependencies: ["staffweb.core"]
+        dependencies: ["staffweb.core"],
         assets: {
             js: [
                 "build/static/**/*.js"
