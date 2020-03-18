@@ -1,0 +1,345 @@
+{
+  ":items": {},
+  ":itemsOrder": [],
+  ":type": "StaffWeb/components/structure/app",
+  ":hierarchyType": "page",
+  ":path": "/content/staffweb/us/en/staging/react",
+  ":children": {
+    "/content/staffweb/us/en/staging/react/first-test": {
+      ":items": {
+        "root": {
+          "allowedComponents": {
+            "applicable": false,
+            "components": [
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/cq/experience-fragments/editor/components/experiencefragment",
+                "title": "Experience Fragment"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/accordion",
+                "title": "Accordion (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/breadcrumb",
+                "title": "Breadcrumb"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/button",
+                "title": "Button (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/carousel",
+                "title": "Carousel (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/container",
+                "title": "Container (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/contentfragment",
+                "title": "Content Fragment"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/contentfragmentlist",
+                "title": "Content Fragment List (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/download",
+                "title": "Download (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/image",
+                "title": "Image"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/languagenavigation",
+                "title": "Language Navigation"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/list",
+                "title": "List"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/navigation",
+                "title": "Navigation"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/search",
+                "title": "Quick Search"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/separator",
+                "title": "Separator (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/sharing",
+                "title": "Social Media Sharing (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/tabs",
+                "title": "Tabs (v1)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/teaser",
+                "title": "Teaser"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/text",
+                "title": "Text"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/title",
+                "title": "Title"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/form/button",
+                "title": "Form Button"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/form/container",
+                "title": "Form Container"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/form/hidden",
+                "title": "Form Hidden (v2)"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/form/options",
+                "title": "Form Options"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/CruOrgApp/components/content/form/text",
+                "title": "Form Text"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/article-long-form",
+                "title": "Article Long Form"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/free-form",
+                "title": "Free Form"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/media-embed",
+                "title": "Media Embed"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/recent-headlines",
+                "title": "Recent Headlines"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/searchresults",
+                "title": "Search Results"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/section-search",
+                "title": "Section Search"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/section-title",
+                "title": "Section Title"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/text",
+                "title": "Text"
+              },
+              {
+                "path": "/conf/staffweb/settings/wcm/templates/staffweb-page-template/structure/jcr:content/root/StaffWeb/components/section/tile",
+                "title": "Tile"
+              }
+            ]
+          },
+          "columnClassNames": {
+            "content-parsys": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          "columnCount": 12,
+          ":items": {
+            "content-parsys": {
+              "allowedComponents": {
+                "applicable": false,
+                "components": [
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/cq/experience-fragments/editor/components/experiencefragment",
+                    "title": "Experience Fragment"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/accordion",
+                    "title": "Accordion (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/breadcrumb",
+                    "title": "Breadcrumb"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/button",
+                    "title": "Button (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/carousel",
+                    "title": "Carousel (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/container",
+                    "title": "Container (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/contentfragment",
+                    "title": "Content Fragment"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/contentfragmentlist",
+                    "title": "Content Fragment List (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/download",
+                    "title": "Download (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/image",
+                    "title": "Image"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/languagenavigation",
+                    "title": "Language Navigation"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/list",
+                    "title": "List"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/navigation",
+                    "title": "Navigation"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/search",
+                    "title": "Quick Search"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/separator",
+                    "title": "Separator (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/sharing",
+                    "title": "Social Media Sharing (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/tabs",
+                    "title": "Tabs (v1)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/teaser",
+                    "title": "Teaser"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/text",
+                    "title": "Text"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/title",
+                    "title": "Title"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/form/button",
+                    "title": "Form Button"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/form/container",
+                    "title": "Form Container"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/form/hidden",
+                    "title": "Form Hidden (v2)"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/form/options",
+                    "title": "Form Options"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/CruOrgApp/components/content/form/text",
+                    "title": "Form Text"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/article-long-form",
+                    "title": "Article Long Form"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/free-form",
+                    "title": "Free Form"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/media-embed",
+                    "title": "Media Embed"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/recent-headlines",
+                    "title": "Recent Headlines"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/searchresults",
+                    "title": "Search Results"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/section-search",
+                    "title": "Section Search"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/section-title",
+                    "title": "Section Title"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/text",
+                    "title": "Text"
+                  },
+                  {
+                    "path": "/content/staffweb/us/en/staging/react/first-test/jcr:content/root/content-parsys/StaffWeb/components/section/tile",
+                    "title": "Tile"
+                  }
+                ]
+              },
+              "columnClassNames": {
+                "image": "aem-GridColumn aem-GridColumn--default--12",
+                "text": "aem-GridColumn aem-GridColumn--default--12"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              "columnCount": 12,
+              ":items": {
+                "text": {
+                  "text": "<h1>Hello from ReactJS and AEM</h1>\r\n",
+                  "richText": true,
+                  ":type": "CruOrgApp/components/content/text"
+                },
+                "image": {
+                  "alt": "Wee",
+                  "src": "/images/mock-image.jpeg",
+                  "srcUriTemplate": "/images/mock-image.jpeg",
+                  "areas": [],
+                  "lazyEnabled": false,
+                  "widths": [],
+                  ":type": "CruOrgApp/components/content/image"
+                }
+              },
+              ":itemsOrder": [
+                "text",
+                "image"
+              ],
+              ":type": "wcm/foundation/components/responsivegrid"
+            }
+          },
+          ":itemsOrder": [
+            "content-parsys"
+          ],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": [
+        "root"
+      ],
+      ":type": "StaffWeb/components/page/editable/react-page",
+      ":hierarchyType": "page",
+      ":path": "/content/staffweb/us/en/staging/react/first-test",
+      "title": "First Test"
+    }
+  },
+  "title": "React"
+}
