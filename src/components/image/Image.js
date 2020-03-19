@@ -22,7 +22,7 @@ const ImageEditConfig = {
 /**
  * Image React component
  */
-class Image extends Component {
+export default class Image extends Component {
 
     get content() {
         return <img src={this.props.src} alt={this.props.alt}
