@@ -1,0 +1,12 @@
+@import '../../styles/shared';
+
+.Image {
+  &-image {
+    margin: 2rem 0;
+    width: 100%;
+    border: 0;
+    font: inherit;
+    padding: 0;
+    vertical-align: baseline;
+  }
+}
