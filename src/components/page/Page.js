@@ -1,4 +1,5 @@
 import {Page, MapTo, withComponentMappingContext } from "@adobe/cq-react-editable-components";
+import {withRoute} from '../../utils/RouteHelper';
 require('./Page.css');
 
 class StaffWebPage extends Page {
@@ -9,4 +10,4 @@ class StaffWebPage extends Page {
     }
 }
 
-MapTo('StaffWeb/components/page/editable/react-page')(withComponentMappingContext(StaffWebPage));
+MapTo('StaffWeb/components/page/editable/react-page')(withComponentMappingContext(withRoute(StaffWebPage)));
