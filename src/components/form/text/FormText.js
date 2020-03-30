@@ -32,7 +32,6 @@ export default class FormText extends Component {
                           name={this.props.name}
                           defaultValue={this.props.value}
                           placeholder={this.props.placeholder}
-                          data-cmp-required-message={this.props.requiredMessage}
                           required={this.props.required}
                           readOnly={this.props.readOnly}
                           rows={this.props.rows} />
@@ -45,7 +44,6 @@ export default class FormText extends Component {
                        name={this.props.name}
                        defaultValue={this.props.value}
                        placeholder={this.props.placeholder}
-                       data-cmp-required-message={this.props.requiredMessage}
                        required={this.props.required}
                        readOnly={this.props.readOnly} />
             );
@@ -54,9 +52,9 @@ export default class FormText extends Component {
             (<p className="cmp-form-text__help-block">{this.props.helpMessage}</p>) : '';
 
         return (
-            <>
+            <div className="cmp-form-text" data-cmp-required-message={this.props.requiredMessage}>
                 {label}{toolTip}{input}
-            </>
+            </div>
         )
     }
 }
