@@ -31,7 +31,8 @@ export default class FormText extends Component {
                    defaultValue={this.props.value}
                    placeholder={this.props.placeholder}
                    data-cmp-required-message={this.props.requiredMessage}
-                   required={this.props.required} />
+                   required={this.props.required}
+                   readOnly={this.props.readOnly} />
         );
         let toolTip = this.props.helpMessage && !this.props.placeholder ?
             (<p className="cmp-form-text__help-block">{this.props.helpMessage}</p>) : '';
