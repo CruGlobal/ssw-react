@@ -317,6 +317,144 @@
                   "lazyEnabled": false,
                   "widths": [],
                   ":type": "CruOrgApp/components/content/image"
+                },
+                "container": {
+                  "allowedComponents": {
+                    "applicable": false,
+                    "components": [
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/accordion",
+                        "title": "Accordion (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/breadcrumb",
+                        "title": "Breadcrumb"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/button",
+                        "title": "Button (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/carousel",
+                        "title": "Carousel (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/container",
+                        "title": "Container (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/contentfragment",
+                        "title": "Content Fragment"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/contentfragmentlist",
+                        "title": "Content Fragment List (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/download",
+                        "title": "Download (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/image",
+                        "title": "Image"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/languagenavigation",
+                        "title": "Language Navigation"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/list",
+                        "title": "List"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/navigation",
+                        "title": "Navigation"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/search",
+                        "title": "Quick Search"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/separator",
+                        "title": "Separator (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/sharing",
+                        "title": "Social Media Sharing (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/tabs",
+                        "title": "Tabs (v1)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/teaser",
+                        "title": "Teaser"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/text",
+                        "title": "Text"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/title",
+                        "title": "Title"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/form/button",
+                        "title": "Form Button"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/form/container",
+                        "title": "Form Container"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/form/hidden",
+                        "title": "Form Hidden (v2)"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/form/options",
+                        "title": "Form Options"
+                      },
+                      {
+                        "path": "/content/staffweb/us/en/staging/react/additional-salary/jcr:content/root/content-parsys/container/CruOrgApp/components/content/form/text",
+                        "title": "Form Text"
+                      }
+                    ]
+                  },
+                  "columnClassNames": {
+                    "options": "aem-GridColumn aem-GridColumn--default--12",
+                    "text": "aem-GridColumn aem-GridColumn--default--12",
+                    "text_2047337211": "aem-GridColumn aem-GridColumn--default--12"
+                  },
+                  "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                  "columnCount": 12,
+                  ":items": {
+                    "text_2047337211": {
+                      "id": "form-text-1047904472",
+                      "title": "My Label: ",
+                      "name": "text-name",
+                      "value": "0",
+                      "helpMessage": "Help Me!",
+                      "type": "number",
+                      "readOnly": false,
+                      "required": false,
+                      "requiredMessage": "This field is required",
+                      "constraintMessage": "",
+                      "rows": 1,
+                      "defaultValue": "",
+                      ":type": "CruOrgApp/components/content/form/text"
+                    },
+                    "options": {
+                      "id": "form-options-2119993096",
+                      "type": "CHECKBOX",
+                      "items": [],
+                      ":type": "CruOrgApp/components/content/form/options"
+                    }
+                  },
+                  ":itemsOrder": [
+                    "text_2047337211",
+                    "options"
+                  ],
+                  ":type": "CruOrgApp/components/content/form/container"
                 }
               },
               ":itemsOrder": [
