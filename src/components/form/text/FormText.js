@@ -24,16 +24,30 @@ const FormTextEditConfig = {
 export default class FormText extends Component {
     render() {
         let label = !this.props.hideLabel ? (<label htmlFor={this.props.name}>{this.props.title}</label>) : '';
-        let input = (
-            <input type={this.props.type}
-                   className="FormText"
-                   name={this.props.name}
-                   defaultValue={this.props.value}
-                   placeholder={this.props.placeholder}
-                   data-cmp-required-message={this.props.requiredMessage}
-                   required={this.props.required}
-                   readOnly={this.props.readOnly} />
-        );
+        let input;
+        if (this.props.type === 'textarea') {
+            input = (
+                <textarea className="FormText"
+                          name={this.props.name}
+                          defaultValue={this.props.value}
+                          placeholder={this.props.placeholder}
+                          data-cmp-required-message={this.props.requiredMessage}
+                          required={this.props.required}
+                          readOnly={this.props.readOnly}
+                          rows={this.props.rows} />
+            );
+        } else {
+            input = (
+                <input type={this.props.type}
+                       className="FormText"
+                       name={this.props.name}
+                       defaultValue={this.props.value}
+                       placeholder={this.props.placeholder}
+                       data-cmp-required-message={this.props.requiredMessage}
+                       required={this.props.required}
+                       readOnly={this.props.readOnly} />
+            );
+        }
         let toolTip = this.props.helpMessage && !this.props.placeholder ?
             (<p className="cmp-form-text__help-block">{this.props.helpMessage}</p>) : '';
 
