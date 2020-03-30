@@ -27,7 +27,8 @@ export default class FormText extends Component {
         let input;
         if (this.props.type === 'textarea') {
             input = (
-                <textarea className="FormText"
+                <textarea className="cmp-form-text__textarea FormText"
+                          id={this.props.id}
                           name={this.props.name}
                           defaultValue={this.props.value}
                           placeholder={this.props.placeholder}
@@ -39,7 +40,8 @@ export default class FormText extends Component {
         } else {
             input = (
                 <input type={this.props.type}
-                       className="FormText"
+                       className="cmp-form-text__text FormText"
+                       id={this.props.id}
                        name={this.props.name}
                        defaultValue={this.props.value}
                        placeholder={this.props.placeholder}
