@@ -23,12 +23,16 @@ const FormTextEditConfig = {
  */
 export default class FormText extends Component {
     render() {
+        let label = !this.props.hideLabel ? (<label htmlFor={this.props.name}>{this.props.title}</label>) : '';
+        let input = (<input type="text" className="FormText" name={this.props.name} defaultValue={this.props.value} />);
+        let toolTip = this.props.helpMessage ?
+            (<p className="cmp-form-text__help-block">{this.props.helpMessage}</p>) : '';
+
         return (
             <>
-                <label htmlFor={this.props.name}>{this.props.title}</label>
-                <input type="text" className="FormText" name={this.props.name} defaultValue={this.props.value} />
+                {label}{toolTip}{input}
             </>
-        );
+        )
     }
 }
 
