@@ -444,9 +444,87 @@
                       ":type": "CruOrgApp/components/content/form/text"
                     },
                     "options": {
-                      "id": "form-options-2119993096",
+                      "id": "form-options-2087672979",
+                      "title": "Checkboxes title",
+                      "name": "checkboxes-name",
+                      "helpMessage": "Help me",
                       "type": "CHECKBOX",
-                      "items": [],
+                      "items": [
+                        {
+                          "value": "1",
+                          "text": "Option 1",
+                          "selected": false,
+                          "disabled": false
+                        },
+                        {
+                          "value": "2",
+                          "text": "Option 2",
+                          "selected": true,
+                          "disabled": false
+                        },
+                        {
+                          "value": "3",
+                          "text": "Option 3",
+                          "selected": false,
+                          "disabled": true
+                        }
+                      ],
+                      ":type": "CruOrgApp/components/content/form/options"
+                    },
+                    "options_153640788": {
+                      "id": "form-options-1519723202",
+                      "title": "Radio Title",
+                      "name": "radio-name",
+                      "helpMessage": "Help Me",
+                      "type": "RADIO",
+                      "items": [
+                        {
+                          "value": "1",
+                          "text": "Radio 1",
+                          "selected": false,
+                          "disabled": false
+                        },
+                        {
+                          "value": "2",
+                          "text": "Radio 2",
+                          "selected": true,
+                          "disabled": false
+                        },
+                        {
+                          "value": "3",
+                          "text": "Radio 3",
+                          "selected": false,
+                          "disabled": true
+                        }
+                      ],
+                      ":type": "CruOrgApp/components/content/form/options"
+                    },
+                    "options_606925404": {
+                      "id": "form-options-600001626",
+                      "title": "Dropdown Title",
+                      "name": "dropdown-name",
+                      "helpMessage": "Help Me",
+                      "type": "DROP_DOWN",
+                      "items": [
+                        {
+                          "value": "1",
+                          "text": "DD 1",
+                          "selected": false,
+                          "disabled": false
+                        },
+                        {
+                          "value": "2",
+                          "text": "DD 2",
+                          "selected": true,
+                          "disabled": false
+                        },
+                        {
+                          "value": "3",
+                          "text": "DD 3",
+                          "selected": false,
+                          "disabled": true
+                        }
+                      ],
                       ":type": "CruOrgApp/components/content/form/options"
                     }
                   },
