@@ -526,6 +526,14 @@
                         }
                       ],
                       ":type": "CruOrgApp/components/content/form/options"
+                    },
+                    "button": {
+                      "id": "form-button-2058956897",
+                      "title": "Title",
+                      "name": "name",
+                      "value": "value",
+                      "type": "SUBMIT",
+                      ":type": "CruOrgApp/components/content/form/button"
                     }
                   },
                   ":itemsOrder": [
